@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="6dp"
+    android:id="@+id/CardView_Thu"
+    android:layout_height="wrap_content"
+    tools:ignore="MissingDefaultResource">
+    <RelativeLayout
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/CardView_1_Thu"
+            android:textSize="30sp"
+            android:text="Tên"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            />
+
+        <TextView
+            android:id="@+id/CardView_2_Thu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_toRightOf="@id/CardView_1_Thu"
+            android:text="Tên 1"
+            android:textSize="30sp" />
+        <TextView
+            android:id="@+id/CardView_3_Thu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/CardView_1_Thu"
+            android:text="Tên 2"
+            android:textSize="32sp" />
+
+        <ImageView
+            android:id="@+id/CardView_img_edit_Thu"
+            android:src="@drawable/ic_baseline_edit_24"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:id="@+id/CardView_img_delete_Thu"
+            android:src="@drawable/ic_baseline_delete_24"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/CardView_img_edit_Thu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

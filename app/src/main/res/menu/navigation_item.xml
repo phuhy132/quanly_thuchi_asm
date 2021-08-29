@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_loai"
+            android:title="Loại Thu Chi"
+            android:icon="@drawable/ic_baseline_account_balance_24"
+            />
+        <item
+            android:id="@+id/nav_Khoanthuchi"
+            android:title="KHoản Thu Chi"
+            android:icon="@drawable/ic_baseline_money_off_24"
+            />
+        <item
+            android:id="@+id/nav_ThongKe"
+            android:title="Thông tin"
+            android:icon="@drawable/ic_baseline_pie_chart_24"
+            />
+    </group>
+
+</menu>
